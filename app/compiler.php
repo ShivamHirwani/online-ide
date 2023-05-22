@@ -9,11 +9,11 @@
     fclose($programFile);
 
     if($language == "php") {
-        $output = shell_exec("C:\wamp64\bin\php\php5.6.40\php.exe $filePath 2>&1");
+        $output = shell_exec("C:\wamp64\bin\php\php8.2.0\php.exe $filePath 2>&1");
         echo $output;
     }
     if($language == "python") {
-        $output = shell_exec("C:\Users\KOUSIK\AppData\Local\Programs\Python\Python39\python.exe $filePath 2>&1");
+        $output = shell_exec("C:\Users\shiva\Downloads\python-3.11.2-amd64 $filePath 2>&1");
         echo $output;
     }
     if($language == "node") {
